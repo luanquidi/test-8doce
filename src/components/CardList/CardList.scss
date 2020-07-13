@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.section__content__card {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: #131415;
+  border: 1px solid $primary-color;
+  border-radius: 10px;
+  
+  .ant-card-body {
+    .ant-card-meta {
+      .ant-card-meta-detail {
+        div {
+          color: white;
+        }
+      }
+    }
+  }
+}
